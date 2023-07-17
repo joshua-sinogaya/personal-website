@@ -29,6 +29,7 @@ a {
     color: white;
     font-size: large;
     height: 100%;
+    cursor: pointer;
 }
 
 .navItem:hover, .navItem a:hover {
