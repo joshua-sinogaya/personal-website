@@ -14,27 +14,26 @@
     <div class="container-fluid text-center bg-Nav h-6 navbar-dark">
     <div class="row fill">
         <!-- Hamburger Menu Button -->
-        <div class="col-1 pt-3 d-xl-none text-start">
+        <div class="col-1 pt-3 d-lg-none text-start">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>        
-        <div class="col-11 pt-3 d-xl-none text-start fs-5">
+        <div class="col-11 pt-3 d-lg-none text-start fs-5">
             <span class="text-white">My Website</span>
         </div>
         <!-- Desktop Navbar -->
-        <div class="col-1 navItem selectedNavItem pt-3 d-none d-xl-block">Home</div>
-        <div class="col-1 navItem pt-3 d-none d-xl-block">About</div>
-        <div class="col-1 navItem pt-3 d-none d-xl-block">Portfolio</div>
-        <div class="col-1 navItem pt-3 d-none d-xl-block">Resume</div>
-        <div class="col-1 navItem pt-3 d-none d-xl-block">Contact</div>
-        <div class="col-1 navItem pt-3 d-none d-xl-block">Blog</div>
-        <div class="col-6 pt-3 d-none d-xl-block"></div>
+        <div class="col navItem selectedNavItem pt-3 d-none d-lg-block">Home</div>
+        <div class="col navItem pt-3 d-none d-lg-block">About</div>
+        <div class="col navItem pt-3 d-none d-lg-block">Portfolio</div>
+        <div class="col navItem pt-3 d-none d-lg-block">Resume</div>
+        <div class="col navItem pt-3 d-none d-lg-block">Contact</div>
+        <div class="col navItem pt-3 d-none d-lg-block">Blog</div>
     </div>
 </div>
 
 <!-- Collapsible Navbar on Smaller Screens -->
-<div class="collapse navbar-collapse d-xl-none" id="navbarCollapse">
+<div class="collapse navbar-collapse d-lg-none" id="navbarCollapse">
     <ul class="navbar-nav ms-3">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -47,14 +46,14 @@
 
 
     <!-- Hero Section -->
-
-    <div class="container-fluid mt-4">
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">&lt;Design && Code&gt;</div>
-                <div class="text-center display-5 fw-bold lh-1 mb-3">I am Joshua Sinogaya</div>
-                <div class="lead text-center">I build websites and drink coffee...and I'm all out of coffee.</div>
-                <div class="text-center mt-3">
+    <div class="container-fluid mt-4 px-lg-5">
+        <div class="row text-lg-center mt-lg-5 pt-lg-3">
+            <!-- Large Left Side -->
+            <div class="col d-none d-lg-block" style="margin-top: 10%; margin-left: 10%;">
+                <div class="text-center text-lg-start">&lt;Design && Code&gt;</div>
+                <div class="text-center text-lg-start display-5 fw-bold lh-1 mb-3">I am Joshua Sinogaya</div>
+                <div class="lead text-center text-lg-start">I build websites and drink coffee...and I'm all out of coffee.</div>
+                <div class="text-center text-lg-start mt-3">
                     <span class="mx-1"><img src="images/html.svg" width="60px"></span>
                     <span class="mx-1"><img src="images/css.svg" width="60px"></span>
                     <span class="mx-1"><img src="images/js.svg" width="60px"></span>
@@ -66,10 +65,79 @@
                     <span class="mx-1"><img src="images/jquery.svg" width="60px"></span>
                 </div>
             </div>
-            <div class="col-12 mt-4">
-                <img src="images/phone.png" class="phone ms-4">
+            <!-- Medium and Smaller Left Side -->
+            <div class="col d-lg-none">
+                <div class="text-center text-lg-start">&lt;Design && Code&gt;</div>
+                <div class="text-center text-lg-start display-5 fw-bold lh-1 mb-3">I am Joshua Sinogaya</div>
+                <div class="lead text-center text-lg-start">I build websites and drink coffee...and I'm all out of coffee.</div>
+                <div class="text-center text-lg-start mt-3">
+                    <span class="mx-1"><img src="images/html.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/css.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/js.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/bootstrap.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/tailwind.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/php.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/phpmyadmin.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/mysql.svg" width="60px"></span>
+                    <span class="mx-1"><img src="images/jquery.svg" width="60px"></span>
+                </div>
+            </div>
+            <!-- Large Right Side -->
+            <div class="col d-none d-lg-flex d-xl-none justify-content-center">
+                <img src="images/phone.png" class="phone">
                 <img src="images/myface.jpg" class="myFace mt-3">
-                <img src="images/like.svg" class="likeBtn">
+                <div class="container phoneContent mt-3">
+                    <div class="row">
+                        <div class="col phoneTopText text-start ms-3">10:13 AM</div>
+                        <div class="col phoneTopText text-end me-3">WebDev</div>
+                    </div>
+                    <div class="row bigGap text-start">
+                        <div class="col">
+                            <span class="text-black ms-3 fs-5 fw-bold">Josh,</span>
+                            <span class="text-black fs-5">22</span><br>
+                            <span class="ms-3 altText">
+                            <img src="images/gps.svg" style="width: 12px;" class="me-2">Malabon City
+                            </span><br>
+                            <span class="ms-3 altText">
+                                <img src="images/educ.svg" style="width: 12px;" class="me-2">UE Caloocan
+                            </span><br>
+                            <p class="altText mx-3 mx-3 mt-3" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- XL Right Side -->
+            <div class="col d-none d-xl-flex justify-content-center" style="margin-right: 15%;">
+                <img src="images/phone.png" class="phone">
+                <img src="images/myface.jpg" class="myFace mt-3">
+                <div class="container phoneContent mt-3">
+                    <div class="row">
+                        <div class="col phoneTopText text-start ms-3">10:13 AM</div>
+                        <div class="col phoneTopText text-end me-3">WebDev</div>
+                    </div>
+                    <div class="row bigGap text-start">
+                        <div class="col">
+                            <span class="text-black ms-3 fs-5 fw-bold">Josh,</span>
+                            <span class="text-black fs-5">22</span><br>
+                            <span class="ms-3 altText">
+                            <img src="images/gps.svg" style="width: 12px;" class="me-2">Malabon City
+                            </span><br>
+                            <span class="ms-3 altText">
+                                <img src="images/educ.svg" style="width: 12px;" class="me-2">UE Caloocan
+                            </span><br>
+                            <p class="altText mx-3 mx-3 mt-2" style="text-align: justify;">I'm a fresh graduate eager to apply my what I've learned in university in a professional setting. With a proven track record of quick and efficient learning from my academic background, I bring a passion for web development technologies. I'm excited to contribute and grow with your company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Medium and Smaller Right Side -->
+    <div class="container d-lg-none">
+        <div class="row">
+            <div class="col mt-4 d-flex justify-content-center">
+                <img src="images/phone.png" class="phone">
+                <img src="images/myface.jpg" class="myFace mt-3">
                 <div class="container phoneContent mt-3">
                     <div class="row">
                         <div class="col phoneTopText ms-3">10:13 AM</div>
@@ -85,7 +153,7 @@
                             <span class="ms-3 altText">
                                 <img src="images/educ.svg" style="width: 12px;" class="me-2">UE Caloocan
                             </span><br>
-                            <p class="altText mx-3 mx-3" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p class="altText mx-3 mx-3 mt-2" style="text-align: justify;">I'm a fresh graduate eager to apply my what I've learned in university in a professional setting. With a proven track record of quick and efficient learning from my academic background, I bring a passion for web development technologies. I'm excited to contribute and grow with your company</p>
                         </div>
                     </div>
                 </div>
